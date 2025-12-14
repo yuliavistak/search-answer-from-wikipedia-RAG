@@ -15,7 +15,8 @@ The system:
 - Encodes them with SentenceTransformer  
 - Builds a FAISS vector index  
 - Retrieves relevant chunks to a user question  
-- Generates an answer using **Qwen2.5-3B-Instruct**  
+- Generates an answer using **Qwen2.5-3B-Instruct**
+- Displays the response to the user on the interface
 
 ## System Architecture
 
@@ -33,6 +34,7 @@ flowchart TD
     H --> J[Top-k Retrieved Chunks]
     J --> K[Llama-3.1-8B Generator]
     K --> L[Final Answer]
+    L --> M[Response on the Interface]
 ```
 
 
