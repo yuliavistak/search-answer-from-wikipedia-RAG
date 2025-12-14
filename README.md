@@ -56,6 +56,8 @@ search-answer-from-wikipedia-RAG/
 
 To install all required libraries, setup models, you should run "0 - Setup" section in `main.ipynb`
 
+Also you should add your `ANTHROPIC_API_KEY` to your environment, if you want to test Claude-as-a-judge part.
+
 ### Lanching assistant
 
 To launch the assistant, you need to run `main.ipynb`
