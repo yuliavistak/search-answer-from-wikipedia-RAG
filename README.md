@@ -47,3 +47,15 @@ search-answer-from-wikipedia-RAG/
 ├── LICENSE                  # MIT Licence
 ├── README.md                # Project documentation
 ```
+
+## Execution
+
+To launch the assistant, you need to run `main.ipynb`
+
+The notebook is structured according to the stages of the system. Each step has an example of run code, which is commented out for convenience. 
+There is also a separate section, “Evaluation of the quality of the final answer (test dataset)”, as well as tabs “Evaluation of chunk selection” (section “6 - Search for relevant fragments”) and “Evaluation of article selection (on test dataset)” (section “2 - Search for an article in Wikipedia”). You may skip these parts, if you want to run the assistant separately (without evaluation).
+
+### Installation & Setup
+
+To install all required libraries, setup models, you should run "0 - Setup" section in `main.ipynb`
+
