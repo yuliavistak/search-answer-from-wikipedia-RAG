@@ -1,4 +1,4 @@
-# 📚 Wikipedia RAG Chatbot (Ukrainian)  
+# 🧠 Wikipedia RAG Chatbot (Ukrainian)  
 **Retrieval-Augmented Generation system which uses Wikipedia articles as a Knowledge base.**
 
 ---
@@ -33,4 +33,17 @@ flowchart TD
     H --> J[Top-k Retrieved Chunks]
     J --> K[Llama-3.1-8B Generator]
     K --> L[Final Answer]
+```
+
+
+## Repo Structure
+
+```
+search-answer-from-wikipedia-RAG/
+├── main.ipynb               # Main file with all Python scripts
+├── Wiki_test_dataset.csv    # Test dataset which contains 53 qustions of different types
+├── LLMs experiments.xlsx    # Table with log of experiments of using different LLMs
+├── .gitignore               # Files ignored by Git
+├── LICENSE                  # MIT Licence
+├── README.md                # Project documentation
 ```
