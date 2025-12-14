@@ -1,4 +1,4 @@
-# 🧠 Wikipedia RAG Chatbot (Ukrainian)  
+# 🧠 Wikipedia RAG Assistant (Ukrainian)  
 **Retrieval-Augmented Generation system which uses Wikipedia articles as a Knowledge base.**
 
 ---
